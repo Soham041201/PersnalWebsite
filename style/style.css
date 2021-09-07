@@ -29,7 +29,8 @@ video{
   background:rgba(135,206,235 ,0.2);;
 
   position: fixed; /* Make it stick/fixed */
-  top: -40px; /* Hide the navbar 50 px outside of the top view */
+  top: -40px;
+  margin-left: 1075px; /* Hide the navbar 50 px outside of the top view */
   width: fit-content;/* Full width */
   transition: top 0.5s;
   float: right; 
@@ -178,4 +179,36 @@ p{
 /* width */
 .card-text{
  text-align: center;
+}
+
+/* =======================Contact Me Page======================================== */
+
+
+
+#contactMessage{
+  color: white;
+  font-size:30px;
+  text-align: left;
+  
+ 
+  word-spacing: 5px;
+}
+
+.contactForm{
+  text-align: left;
+  margin-left:20px;
+  
+  color: white;
+  width:fit-content;
+  height: auto;
+  padding:20px;
+  width:50%;
+  background: rgba(227, 242, 253, 0.05);
+  color:white;
+  backdrop-filter: blur(3px);
+  margin: 50px;
+ 
+}
+#mail{
+  color: skyblue;
 }
