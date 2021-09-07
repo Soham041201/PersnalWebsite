@@ -4,6 +4,7 @@
   }
 video::-webkit-media-controls {
     display: none;
+    max-width: 100%;
   }
 
 video{
@@ -17,6 +18,11 @@ video{
         filter: brightness(90%);
       
 }
+
+
+
+
+
 .photo{
   margin-top: 50px;
 }
@@ -30,7 +36,7 @@ video{
 
   position: fixed; /* Make it stick/fixed */
   top: -40px;
-  margin-left: 1075px; /* Hide the navbar 50 px outside of the top view */
+ /* Hide the navbar 50 px outside of the top view */
   width: fit-content;/* Full width */
   transition: top 0.5s;
   float: right; 
@@ -168,7 +174,7 @@ p{
 }
 
 .dp{
-  height:300px;
+  max-height:300px;
   border-radius: 200px;
   float:center;
   text-align: center;
