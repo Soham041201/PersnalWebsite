@@ -23,10 +23,10 @@ video{
 
 
 
-/* .photo{
-  margin-top: 50px;
-  margin-left: 10px;
-} */
+ .photo{
+  margin-top: 25px;
+ 
+} 
 .about{
   
   font-size:28px;
@@ -175,13 +175,13 @@ p{
 }
 
 .dp{
-  max-height:200px;
+  max-height:250px;
   border-radius: 150px;
   float:center;
   text-align: center;
   align-content: center;
   margin-left: 15%;
-  margin-top: 10px;
+ 
 }
 
 /* width */
