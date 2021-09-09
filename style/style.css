@@ -128,6 +128,13 @@ margin: 5px 10% 10% 10%;
 
 } */
 
+.skill{
+  color:white;
+}
+.skill:hover{
+  color:skyblue;
+}
+
 .card-intro{
   width:auto;
   
@@ -189,6 +196,23 @@ p{
  text-align: center;
 }
 
+.projectLink{
+  color:white;
+  text-decoration: none;
+}
+.projectLink:hover{
+  color:skyblue;
+  font-style: normal;
+}
+
+
+footer{
+  color:white;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:10px;
+  font-size: 18px;;
+}
 /* =======================Contact Me Page======================================== */
 
 
