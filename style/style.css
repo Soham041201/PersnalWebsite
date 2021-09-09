@@ -23,11 +23,12 @@ video{
 
 
 
-.photo{
+/* .photo{
   margin-top: 50px;
-}
+  margin-left: 10px;
+} */
 .about{
-  margin-left: 30px;
+  
   font-size:28px;
 }
 #navbar {
@@ -71,7 +72,7 @@ margin:10px
   margin-top: 00px;
 }
 .container{
-  width: 500px;
+  width: 300px;
   margin-top:10px;
   text-align: center;
 }
@@ -86,9 +87,9 @@ margin:10px
 }
 hr{
   color:white;
-  
-  margin: 20px 600px;
-  margin-top:350px;
+  margin-top:50px;
+  margin-left: 25%;
+  margin-right: 25%;
   border: 1px solid;
   opacity: 1;
 }
@@ -122,10 +123,10 @@ h1{
   margin-left: 30px;
   color:white;
 }
-.row{
+/* .row{
 margin: 5px 10% 10% 10%;
 
-}
+} */
 
 .card-intro{
   width:auto;
@@ -162,7 +163,7 @@ p{
 }
 
 .card-education{
-  width:150%;
+  width:80%;
   height: auto;
   text-align: center;
   background: rgba(227, 242, 253, 0.1);
@@ -174,12 +175,13 @@ p{
 }
 
 .dp{
-  max-height:300px;
-  border-radius: 200px;
+  max-height:200px;
+  border-radius: 150px;
   float:center;
   text-align: center;
   align-content: center;
-  margin-left: 200px;
+  margin-left: 15%;
+  margin-top: 10px;
 }
 
 /* width */
@@ -193,7 +195,7 @@ p{
 
 #contactMessage{
   color: white;
-  font-size:30px;
+  font-size:20px;
   text-align: left;
   
  
@@ -205,14 +207,12 @@ p{
   margin-left:20px;
   
   color: white;
-  width:fit-content;
+  
   height: auto;
   padding:20px;
-  width:50%;
   background: rgba(227, 242, 253, 0.05);
   color:white;
   backdrop-filter: blur(3px);
-  margin: 50px;
  
 }
 #mail{
